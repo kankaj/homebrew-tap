@@ -2,9 +2,9 @@
 cask "senzor" do
   arch arm: "aarch64", intel: "x86_64"
 
-  version "1.0.0"
-  sha256 arm:   "66921ef7c65a435ed287e2997f3c4fce3ac900b6836f57718d5465512f004f92",
-         intel: "d997b6c0086575e5f8d7186f021e3abe11eb96e1787f40c8b2dd54e3a00d3562"
+  version "1.0.1"
+  sha256 arm:   "1897e94ca868a772b844f689f6e20b23251be5c20ec28d5cd32d37b223fb5c9e",
+         intel: "214f1c6f501ca62412ad050d7efacc2b72a5faa7ae60c6352cc5183f3290e793"
 
   url "https://github.com/kankaj/Senzor/releases/download/v#{version}/Senzor-#{arch}-apple-darwin.zip"
   name "Senzor"
